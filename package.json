@@ -1,0 +1,18 @@
+{
+  "name": "math-package",
+  "version": "1.0.0",
+  "description": "Build library math package.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run buid"
+  },
+  "keywords": [],
+  "author": "dunghenry",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
