@@ -2,17 +2,17 @@
 ### Script
 
 ```js
-import {Array} from 'logs-package';
+import {Array} from 'library-math';
 ```
 ###
 ### reducer method
 
 ```js
- Array.reducer([1, 2, 3])
+ Array.reduce([1, 2, 3])
 ```
 
 ```js
- Array.reducer([1, 2, 3], 5)
+ Array.reduce([1, 2, 3], 5)
 ```
 ###
 
