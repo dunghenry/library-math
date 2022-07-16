@@ -1,18 +1,26 @@
 {
-  "name": "math-package",
+  "name": "library-math",
   "version": "1.0.0",
-  "description": "Build library math package.",
+  "description": "",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
-
   "scripts": {
     "build": "tsc",
-    "prepare": "npm run buid"
+    "prepare": "npm run build"
   },
-  "keywords": [],
-  "author": "dunghenry",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dunghenry/library-math.git"
+  },
+  "keywords": ["math", "library-math"],
+  "author": "DungHenry",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dunghenry/library-math/issues"
+  },
+  "homepage": "https://github.com/dunghenry/library-math#readme",
   "devDependencies": {
     "typescript": "^4.7.4"
-  }
+  },
+  "files": ["lib/**/*"]
 }
