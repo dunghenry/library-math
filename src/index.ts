@@ -1,2 +1,2 @@
-import { Array } from "./array";
-export {Array};
+import { Array } from './array';
+export { Array };
